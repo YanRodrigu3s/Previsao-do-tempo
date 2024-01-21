@@ -1,4 +1,3 @@
-
 // Chave de API para acessar os dados meteorológicos
 const chave = "45fb8d260a72b52a51968e7c73392e81";
 
