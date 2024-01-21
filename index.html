@@ -1,0 +1,68 @@
+<!-- Declaração do tipo de documento e idioma -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Configuração da codificação de caracteres e escala de visualização -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Conexão e importação de fontes do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Importação do arquivo de estilo CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Importação do arquivo de script JavaScript -->
+    <script src="scripts.js"></script>
+
+    <!-- Título da página -->
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+    <!-- Início da div principal com a classe "caixa-maior" -->
+    <div class="caixa-maior">
+
+        <!-- Campo de entrada de texto para a cidade com a classe "input-cidade" -->
+        <input class="input-cidade" placeholder="Digite o nome da cidade">
+
+        <!-- Botão de busca com a classe "botao-busca" e chamada da função "cliqueiNoBotao()" no clique -->
+        <button class="botao-busca" onclick="cliqueiNoBotao()">
+            <!-- Ícone de busca -->
+            <img class="img-busca" alt="busca" src="https://www.svgrepo.com/show/488200/find.svg">
+        </button>
+
+        <!-- Início da div secundária com a classe "caixa-media" -->
+        <div class="caixa-media">
+
+            <!-- Título da cidade com a classe "cidade" -->
+            <h2 class="cidade">Tempo em Brasilia</h2>
+
+            <!-- Parágrafo para exibir a temperatura com a classe "temperatura" -->
+            <p class="temperatura">21°C</p>
+
+            <!-- Início da div menor com a classe "caixa-menor" -->
+            <div class="caixa-menor">
+
+                <!-- Ícone de previsão do tempo com a classe "img-previsao" -->
+                <img class="img-previsao" alt="icone-info-tempo" src="https://openweathermap.org/img/wn/04n.png">
+
+                <!-- Parágrafo para exibir o texto da previsão do tempo com a classe "texto-previsao" -->
+                <p class="texto-previsao">Nublado</p>
+            </div>
+            <!-- Fim da div menor -->
+
+            <!-- Parágrafo para exibir a umidade com a classe "Umidade" -->
+            <p class="Umidade">Umidade: 76%</p>
+        </div>
+        <!-- Fim da div secundária -->
+
+    </div>
+    <!-- Fim da div principal -->
+
+</body>
+
+</html>

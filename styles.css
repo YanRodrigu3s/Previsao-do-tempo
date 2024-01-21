@@ -1,0 +1,107 @@
+
+/* Define estilos padrão para todos os elementos do documento */
+
+* {
+    margin: 0; /* Define a margem externa como zero */
+    padding: 0; /* Define o preenchimento como zero */
+    box-sizing: border-box; /* Faz com que a caixa inclua a borda e o preenchimento */
+    font-family: 'Open Sans', sans-serif; /* Define a fonte para 'Open Sans' e fallback para sans-serif */
+}
+
+/* Estilos para o corpo da página */
+
+body {
+    display: flex; /* Define o modelo de layout flexível para o corpo */
+    justify-content: center; /* Centraliza os itens ao longo do eixo principal (horizontalmente) */
+    align-items: center; /* Centraliza os itens ao longo do eixo transversal (verticalmente) */
+    height: 100vh; /* Define a altura igual à altura da janela de visualização */
+    width: 100vw; /* Define a largura igual à largura da janela de visualização */
+    background-image: url("https://source.unsplash.com/1600x900/?landscape"); /* Define uma imagem de fundo aleatória do Unsplash */
+}
+
+/* Estilos para a caixa principal */
+
+.caixa-maior {
+    background: black; /* Define o fundo como preto */
+    opacity: 0.8; /* Define a opacidade como 80% */
+    border-radius: 25px; /* Define a borda arredondada */
+    padding: 20px; /* Adiciona um preenchimento interno de 20 pixels */
+    width: 95%; /* Define a largura da caixa como 95% do contêiner pai */
+    max-width: 450px; /* Define a largura máxima da caixa como 450 pixels */
+}
+
+/* Estilos para o campo de entrada da cidade */
+
+.input-cidade {
+    border: none; /* Remove a borda */
+    outline: none; /* Remove a borda de foco */
+    padding: 10px; /* Adiciona um preenchimento interno de 10 pixels */
+    border-radius: 25px; /* Define a borda arredondada */
+    font-size: 18px; /* Define o tamanho da fonte como 18 pixels */
+    background-color: #7c7c7c2b; /* Define a cor de fundo com transparência */
+    color: white; /* Define a cor do texto como branco */
+    width: calc(100% - 70px); /* Calcula a largura para ocupar 100% menos 70 pixels */
+}
+
+/* Estilos para o botão de busca */
+
+.botao-busca {
+    border: none; /* Remove a borda */
+    outline: none; /* Remove a borda de foco */
+    padding: 10px; /* Adiciona um preenchimento interno de 10 pixels */
+    border-radius: 50px; /* Define a borda arredondada */
+    background-color: #ffffff; /* Define a cor de fundo como branco */
+    cursor: pointer; /* Adiciona um cursor de ponteiro */
+    float: right; /* Alinha o botão à direita */
+}
+
+/* Estilos para a imagem no botão de busca */
+
+.img-busca {
+    width: 20px; /* Define a largura da imagem como 20 pixels */
+}
+
+/* Estilos para a caixa média que contém informações meteorológicas */
+
+.caixa-media {
+    margin-top: 30px; /* Adiciona uma margem superior de 30 pixels */
+}
+
+/* Estilos para o título da cidade */
+
+.cidade {
+    color: white; /* Define a cor do texto como branco */
+    font-size: 28px; /* Define o tamanho da fonte como 28 pixels */
+    font-weight: 300; /* Define o peso da fonte como 300 */
+}
+
+/* Estilos para a temperatura */
+
+.temperatura {
+    font-size: 20px; /* Define o tamanho da fonte como 20 pixels */
+    color: white; /* Define a cor do texto como branco */
+    margin-top: 20px; /* Adiciona uma margem superior de 20 pixels */
+}
+
+/* Estilos para a caixa menor que contém ícone de previsão e texto */
+
+.caixa-menor {
+    display: flex; /* Define um contêiner flexível */
+    align-items: center; /* Centraliza os itens ao longo do eixo transversal */
+    margin-top: 20px; /* Adiciona uma margem superior de 20 pixels */
+}
+
+/* Estilos para o texto da previsão do tempo */
+
+.texto-previsao {
+    color: white; /* Define a cor do texto como branco */
+    margin-left: 20px; /* Adiciona uma margem esquerda de 20 pixels */
+    text-transform: capitalize; /* Transforma o texto para inicial maiúscula */
+}
+
+/* Estilos para o texto de umidade */
+
+.Umidade {
+    color: white; /* Define a cor do texto como branco */
+    margin-top: 20px; /* Adiciona uma margem superior de 20 pixels */
+}
